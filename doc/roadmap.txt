@@ -1,0 +1,64 @@
+$Id: roadmap.txt,v 1.3.2.2 2001/11/22 22:56:09 cmatsuoka Exp $
+
+
+Playability:
+                 |     0.7    |     0.8    |    0.9     |     1.0    |
+ ----------------|------------|------------|------------|------------|
+    Sierra Demos |  Accurate  |  Accurate  |  Accurate  |  Accurate  |
+  Sierra v2/AGDS | Finishable |  Accurate  |  Accurate  |  Accurate  |
+       Sierra v3 |  Playable  | Finishable |  Accurate  |  Accurate  |
+        Homemade |            |  Playable  | Finishable |  Accurate  |
+ ----------------|------------|------------|------------|------------|
+
+Extra features:
+                 |     0.7    |     0.8    |    0.9     |     1.0    |
+ ----------------|------------|------------|------------|------------|
+         Console |   stable   |   stable   |   stable   |   stable   |
+     Hi-res mode |experimental|   stable   |   stable   |   stable   |
+   Mouse support |            |experimental|   stable   |   stable   |
+      IIgs sound |            |            |experimental|   stable   |
+ ----------------|------------|------------|------------|------------|
+
+
+0.7.0:
+
+* Demopacks 1-4 100% accurate					98%
+* Main Sierra v2 games finishable (LSL1, KQ1-2, PQ1, SQ1-2)	OK
+* AGDS game finishable						OK
+* Sierra v3 games + KQ3 playable				OK
+* Fix quit/restart crashes					OK
+* Fix hi-res mode problems					OK
+* Amiga port							OK
+
+0.8.0:
+
+* Sierra v3 games + KQ3 finishable				10%
+* Sierra v2 games accurate					30%
+* Multi-slot savegames						 0%
+* Fix quit/restart problems					 0%
+* Major homemade games finishable				 0%
+* Macintosh port						50%
+* unk commands implemented					40%
+
+0.9.0:
+
+* IIgs sound emulation						20%
+* Sierra v3 games accurate					 0%
+* Complete documentation					30%
+* Mouse support							90%
+
+1.0:
+
+* All games 100% accurate					 5%
+
+1.1+:
+
+* Re-organize support functions layers and APIs:
+  sound, graphics, input, filesystem, timer, AGI
+  resources. Reuse as much as possible in the
+  AGI utilities to make them portable.				 0%
+
+2.0:
+
+* Dynamic palette, higher-res mode, FreeSCI GFX, etc.		 0%
+

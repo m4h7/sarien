@@ -1,0 +1,19 @@
+#
+# Makefile for DJGPP v2
+#
+# $Id: Makefile.dj,v 1.4 2001/07/22 15:46:22 darkfiber Exp $
+#
+
+include $(TOPDIR)/Rules.dj
+
+OBJS = djgpp.o
+
+all: driver.a
+
+driver.a: $(OBJS)
+	ar rsv driver.a $(OBJS)
+
+clean:
+	@if exist *.bak del *.bak
+	@if exist *.o del *.o
+	@if exist *.a del *.a

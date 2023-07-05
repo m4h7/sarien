@@ -1,0 +1,6 @@
+$Id: README.turboc,v 1.2 2001/07/02 18:25:55 cmatsuoka Exp $
+
+To build sarien using Turbo C 3.0, run make -f Makefile.tc from the
+toplevel source directory. Older versions of Turbo C may work with
+Makefile.tc1.
+
